@@ -1,0 +1,47 @@
+@import "normalize";
+
+$primary-color: #5900b3; // Darker Purple
+$secondary-color: #99b3ff; // Light Blue
+$tertiary-color: #ffff00; // Yellow
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+
+}
+
+header {
+    background: $primary-color;
+    display: flex;
+    flex-direction: column;
+    #logo {
+        display: inline-block;
+        width: 100%;
+    }
+    #header-title {
+        color: #fff;
+        font: {
+            size: 2.25em;
+            family: 'Swanky and Moo Moo', sans-serif;
+        }
+        text-align: center;
+        margin: auto 0;
+        #trade {
+            font-size: 1em;
+        }
+    }
+}
+
+
+
+h3 {
+    font: {
+        size: 2em;
+        family: 'Swanky and Moo Moo', sans-serif;
+    }
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: 10px auto;
+}
